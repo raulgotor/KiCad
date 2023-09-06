@@ -36,9 +36,9 @@
   (pad "MP" smd rect (at 7 -1.4) (size 0.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db386052-9d2d-40d5-8a36-b5d06734b154))
   (pad "MP" smd rect (at -7 -1.4) (size 0.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e0e8a3f1-3b75-47ae-97bd-458e759aa643))
   (pad "MP" smd rect (at -7 1.4) (size 0.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec42f2ab-8e77-4dfb-902a-24634a6c0df8))
-  (model "/Users/raul.gotor/Downloads/686112183822_Downloads_STP_686112183822_rev1.stp"
-    (offset (xyz 0 0 1.5))
+  (model "${GTR_3DMOD}/Connector_FFC-FPC.3dshapes/Wurth 686112183822.stp"
+    (offset (xyz 0 0 1.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 -180))
   )
 )
