@@ -3009,4 +3009,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c14b670b-c7cb-480a-8b89-5fee88809eb8")
 	)
+	(model "${GTR_3DMOD}/Seeed_XIAO_GTR.3dshapes/XIAO-nRF52840 v15.step"
+		(offset
+			(xyz 6 -1.7 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

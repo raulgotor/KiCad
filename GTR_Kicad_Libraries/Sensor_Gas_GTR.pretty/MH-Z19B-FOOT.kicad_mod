@@ -184,8 +184,20 @@
 		(uuid "a36d9dc6-630b-40c0-9eeb-56bb5303af7e")
 	)
 	(model "${GTR_3DMOD}/Sensor_Gas_GTR.3dshapes/MH-Z19B.STEP"
+		(hide yes)
 		(offset
-			(xyz -1.5 -2.5 2.5)
+			(xyz -1.5 -2.5 -5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/raul.gotor/repos/KiCad/GTR_Kicad_Libraries/packages_3d/Sensor_Gas_GTR.3dshapes/MH-z19_c02_sens.STEP"
+		(offset
+			(xyz 15.1 5 -4.5)
 		)
 		(scale
 			(xyz 1 1 1)
