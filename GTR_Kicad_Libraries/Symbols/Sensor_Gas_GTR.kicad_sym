@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "ScioScience_ENS160"
+	(symbol "MH-Z19B"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15,24 +15,15 @@
 			)
 		)
 		(property "Value" ""
-			(at -2.54 0 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Sensor_Gas_GTR:ScioSense ENS160"
-			(at -2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/9/f/e/9/c/ENS160_datasheet.pdf"
-			(at 3.048 -28.956 0)
+		(property "Footprint" "Sensor_Gas_GTR:MH-Z19B"
+			(at 0.254 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,16 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital Metal-Oxide Multi-Gas Sensor"
-			(at 0.762 -26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "Digital Metal-Oxide Multi-Gas Sensor"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,10 +40,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "ScioScience_ENS160_1_1"
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MH-Z19B_1_1"
 			(rectangle
-				(start -8.89 10.16)
-				(end 8.89 -10.16)
+				(start -11.43 6.35)
+				(end 11.43 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -70,17 +61,17 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at -11.43 2.54 0)
+			(pin power_in line
+				(at 13.97 -2.54 180)
 				(length 2.54)
-				(name "SDA"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -89,70 +80,16 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
-				(name "SCL"
+				(name "RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -5.08 0)
-				(length 2.54)
-				(name "ADDR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 1.27 12.7 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 12.7 270)
-				(length 2.54)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
+				(number "RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -161,34 +98,16 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -2.54 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
-				(name "INTn"
+				(name "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 5.08 0)
-				(length 2.54)
-				(name "CSn"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
+				(number "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -197,34 +116,16 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -12.7 90)
+				(at 13.97 2.54 180)
 				(length 2.54)
-				(name "GND"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 1.27 -12.7 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
+				(number "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
