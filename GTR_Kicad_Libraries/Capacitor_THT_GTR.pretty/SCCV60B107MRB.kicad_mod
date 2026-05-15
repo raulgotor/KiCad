@@ -1,0 +1,143 @@
+(footprint "SCCV60B107MRB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "The new series of cylindrical electrochemical double-layer capacitors offers excellent pulse power handling characteristics based on the combination of very high capacitance and very low ESR. Used by themselves or in conjunction with primary or secondary batteries, they provide extended back up time, longer battery life, and provide instantaneous power pulses as needed. Offers great solutions to Hold Up, Energy Harvesting, and Pulse Power Applications.")
+	(tags "High Capacitance Cylindrical SuperCapacitors")
+	(property "Reference" "C**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eceefdc3-3405-40f1-bacb-871dbad99756")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SCCV60B107MRB"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec01f059-3db7-4e76-805b-01ef3d44d064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5382e0c9-31ee-440e-867e-bdcfe3f953af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.de/datasheet/2/40/AVX_SCC-3084824.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f15da970-f8bb-4a6e-bfcf-2db14da1316a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "697a230a-69fe-4461-9bcf-25e3fb6f32d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9 9)
+		(end 9 69)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e2ea201b-a923-4f89-9aa9-a210f870a668")
+	)
+	(fp_rect
+		(start 3 9)
+		(end 4.5 69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1305a6ba-4662-47e7-b572-206b4e26f1b1")
+	)
+	(fp_rect
+		(start -10 8)
+		(end 10 70)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fbafa08f-e4a2-4b67-b8ca-493c5948a31c")
+	)
+	(fp_rect
+		(start -10 8)
+		(end 10 70)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "32df6646-cdfb-4e30-ac8f-a4813de225e2")
+	)
+	(pad "1" thru_hole circle
+		(at -4 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30d4db2d-5c5b-4950-bb01-dc5b414f578e")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b585f3e0-633a-4941-b37d-57ede8151fa9")
+	)
+	(model "${GTR_3DMOD}/Capacitor_THT_GTR/SCCV60B107MRB.step"
+		(offset
+			(xyz 0 -9 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)
